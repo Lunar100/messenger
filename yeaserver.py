@@ -50,7 +50,7 @@ addresses = {}
 HOST = ''
 PORT = 33000
 BUFSIZ = 1024
-ADDR = (HOST, PORT)
+ADDR = ("172.19.42.18", "33000")
 
 SERVER = socket(AF_INET, SOCK_STREAM)
 SERVER.bind(ADDR)
