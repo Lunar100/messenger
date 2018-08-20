@@ -1,6 +1,6 @@
 import socket
 TCP_IP = '73.70.193.8'
-TCP_PORT = 5005
+TCP_PORT = 80
 BUFFER_SIZE = 20  # Normally 1024, but we want fast response
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((TCP_IP, TCP_PORT))
